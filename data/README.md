@@ -1,0 +1,5 @@
+
+#Dataset links:
+https://ec.europa.eu/eurostat/api/dissemination/sdmx/3.0/data/dataflow/ESTAT/ilc_peps01n/1.0/*.*.*.*.*?c[freq]=A&c[unit]=PC&c[age]=TOTAL&c[sex]=T&c[geo]=EU27_2020,BE,BG,CZ,DK,DE,EE,IE,EL,ES,FR,HR,IT,CY,LV,LT,LU,HU,MT,NL,AT,PL,PT,RO,SI,SK,FI,SE,IS,NO,CH,UK,ME,MK,AL,RS,TR&c[TIME_PERIOD]=2024,2023,2022,2021,2020,2019,2018&compress=false&format=csvdata&formatVersion=2.0&lang=en&labels=name
+
+https://ec.europa.eu/eurostat/api/dissemination/sdmx/3.0/data/dataflow/ESTAT/prc_ppp_ind/1.0/*.*.*.*?c[freq]=A&c[na_item]=PLI_EU27_2020&c[ppp_cat]=A010101&c[geo]=EU27_2020,BE,BG,CZ,DK,DE,EE,IE,EL,ES,FR,HR,IT,CY,LV,LT,LU,HU,MT,NL,AT,PL,PT,RO,SI,SK,FI,SE,IS,NO,CH,UK,CPC1,BA,ME,MK,AL,RS,TR,XK,US,JP&c[TIME_PERIOD]=2024,2023,2022,2021,2020,2019,2018,2017,2016,2015&compress=false&format=csvdata&formatVersion=2.0&lang=en&labels=name
