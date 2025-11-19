@@ -14,3 +14,16 @@ df.head()
 df2.head(10)
 
 # %%
+alt.data_transformers.disable_max_rows()
+# load a sample dataset as a pandas DataFrame
+#from altair.datasets import data
+#cars = data.cars()
+
+# make the chart
+alt.Chart(df).mark_point().encode(
+    x='geo',
+    y='OBS_VALUE',
+    color='sex',
+).interactive()
+
+# %%
