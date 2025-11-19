@@ -5,7 +5,7 @@ import pandas as pd
 
 #%% Import data from tables
 df = pd.read_csv('../data/povertyData.csv')
-df2 = pd.read_csv('../data/data2.csv')
+df2 = pd.read_csv('../data/PurchasingPowerParities.csv')
 
 #%% Display first 5 rows (default) of table 1
 df.head()
