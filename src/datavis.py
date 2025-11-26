@@ -88,7 +88,7 @@ base2 = alt.Chart(source2).mark_bar().encode(
 )
 
 #%%
-#Scatter Bar Chart for PovertyData and PurchasingPowerParities in two seperate graphs side by side
+#Bar Chart for PovertyData and PurchasingPowerParities in two seperate graphs side by side
 #Where X axis is the the gender in the poverty dataset and the catagories in the PurchasingPowerParities dataset
 #and Y axis is the obs values as a persentage.
 
