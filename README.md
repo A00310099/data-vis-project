@@ -35,8 +35,8 @@ For more detailed instructions, refer to the [Reproduction Steps](#reproduction-
 ### <ins>Project setup:</ins>
 - Before you can run the project, you will need to start a Python Virtual Environment. You can do this by opening the Command Palette in Visual Studio Code, either through `View > Command Palette...` or with the <kbd>F1</kbd> or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> shortcuts.\
 ![View > Command Palette...](screenshots/command_palette.png)
-- From the Command Palette, you can then run the `Create: Python Environment...` command. Select `.venv` as your virtual environment, then the version of python you are using.\
-![Python: Create Environment](screenshots/python_environment.png)\
+- From the Command Palette, you can then run the `Python: Create Environment...` command. Select `.venv` as your virtual environment, then the version of python you are using.\
+![Python: Create Environment...](screenshots/python_environment.png)\
 ![Create a '.venv' virtual environment in the current workspace](screenshots/venv.png)
 - At this point, you might be asked if you'd like to install packages from requirements.txt. Approve the prompt and Visual Studio Code will install the required packages for you. If you do not get this prompt, or if you declined it, you will need to open a terminal in your virtual environment and run the following command:
     ```
