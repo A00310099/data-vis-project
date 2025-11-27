@@ -33,6 +33,26 @@ For more detailed instructions, refer to the [Reproduction Steps](#reproduction-
 !["Open Folder..." button](screenshots/open_folder.png)
 
 ### <ins>Project setup:</ins>
+
+> [!WARNING]
+> <details><summary>For Windows users:</summary>
+>
+> Windows users may run into issues when trying to start a Python Virtual Environment as running scripts is disabled by default. As a workaround to this issue, you can open the Command Palette then run `Preferences: Open User Settings (JSON)` and add the following line to the user settings:
+> 
+>    
+> ```json
+> "terminal.integrated.profiles.windows": {
+>     "PowerShell": { 
+>         "source": "PowerShell", 
+>         "icon": "terminal-powershell", 
+>         "args": ["-ExecutionPolicy", "Bypass"] 
+>     } 
+> }, 
+> "terminal.integrated.defaultProfile.windows": "PowerShell"
+> ```
+>
+> </details>
+
 - Before you can run the project, you will need to start a Python Virtual Environment. You can do this by opening the Command Palette in Visual Studio Code, either through `View > Command Palette...` or with the <kbd>F1</kbd> or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> shortcuts.\
 ![View > Command Palette...](screenshots/command_palette.png)
 - From the Command Palette, you can then run the `Python: Create Environment...` command. Select `.venv` as your virtual environment, then the version of python you are using.\
@@ -45,7 +65,7 @@ For more detailed instructions, refer to the [Reproduction Steps](#reproduction-
 - You will also want to download the required datasets for the project. [`data/README.md`](data/README.md) contains detailed instructions on how you can do this on Linux and on Windows.
 
 ### <ins>Running the project:</ins>
-- Once you've completed all the steps, you may now run `datavis.py`. Do not try running this by just pressing the run button. Instead, click the dropdown next to the run button and select `Run Current File in Interactive Window`. This may take a few seconds to fully load, but once it does you should see all the graphs begin to open up at the side.\
+- Once you've completed all the steps, you may now run [`datavis.py`](src/datavis.py). Do not try running this by just pressing the run button. Instead, click the dropdown next to the run button and select `Run Current File in Interactive Window`. This may take a few seconds to fully load, but once it does you should see all the graphs begin to open up at the side.\
 !["Run Current File in Interactive Window"](screenshots/run_interactive.png)
 - Once you've ran the file at least once, you may later want to narrow down your results. You can view individual graphs by clicking on the `Run Cell` button above blocks of codes.\
 !["Run Cell"](screenshots/run_cell.png)
