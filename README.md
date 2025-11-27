@@ -5,7 +5,7 @@
 2. Clone this repository and start your Python virtual environment.
 3. Make sure all required packages are installed:
 `pip install -r requirements.txt`
-4. Download the datasets by following the instructions in [`data/README.md`](data\README.md).
+4. Download the datasets by following the instructions in [`data/README.md`](data/README.md).
 5. Run [`src/datavis.py`](src/datavis.py).
 
 For more detailed instructions, refer to the [Reproduction Steps](#reproduction-steps) below.
