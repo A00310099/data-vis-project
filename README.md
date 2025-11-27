@@ -29,6 +29,7 @@ For more detailed instructions, refer to the [Reproduction Steps](#reproduction-
 !["Clone Git Repository..." button](screenshots/clone_git1.png)\
 ![Cloning the git repository in Visual Studio Code](screenshots/clone_git2.png)
 - Otherwise, you can download the repository as a `.zip` from the [GitHub](https://github.com/A00310099/data-vis-project), extract it where you can find it (for example, onto your desktop) and then Open Folder with Visual Studio Code.\
+![ZIP Git Repository](screenshots/clone_git3.png)\
 !["Open Folder..." button](screenshots/open_folder.png)
 
 ### <ins>Project setup:</ins>
